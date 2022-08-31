@@ -1,0 +1,3 @@
+[submodule "src/pages/amlobot"]
+	path = src/pages/amlobot
+	url = https://github.com/rexmalebka/amlobot.git
