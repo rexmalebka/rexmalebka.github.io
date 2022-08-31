@@ -46,7 +46,6 @@ export default defineComponent({
 	methods:{
 		list_options(e:InputEvent){
 			const word = e.target.value.toLowerCase().trim()
-			console.debug("assdf",word)
 			this.options = []
 
 			if (this.corpus[word] != undefined){
