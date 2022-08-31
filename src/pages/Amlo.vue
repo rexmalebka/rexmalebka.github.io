@@ -112,7 +112,7 @@ export default defineComponent({
 	},
 	mounted(){
 		const app = this
-		fetch('/src/pages/amlobot/scripts/trained_data_ascii.json')
+		fetch('/src/pages/amlobot/scripts/trained_data.json')
 			.then((response) => response.json())
 			.then(json=>{
 				app.corpus = json
@@ -128,14 +128,12 @@ export default defineComponent({
 </script>
 
 <style>
-html,body{
-	background:black;
-}
 #header{
 	display:flex;
 	align-items:center;
 	justify-content:center;
 	flex-direction:column;
+	background:black;
 }
 
 #header h1{
